@@ -1,0 +1,31 @@
+.headerjr{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    background-color: #232f3f;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.button {
+    margin-right: 25px;
+}
+
+.button,
+.sell {
+  color: white;
+  text-decoration: none; /* quita el subrayado */
+  background-color: transparent; /* quita el fondo del botón */
+  border: none; /* quita el borde del botón */
+  outline: none; /* quita el contorno al hacer click */
+}
+
+.buttonf{
+    margin-left: 430px;
+    color: white;
+    text-decoration: none; /* quita el subrayado */
+    background-color: transparent; /* quita el fondo del botón */
+    border: none; /* quita el borde del botón */
+    outline: none; /* quita el contorno al hacer click */
+}
