@@ -9,11 +9,17 @@ import { Dropdown, DropdownButton } from 'react-bootstrap';
 
 function Header() {
 
+    const [text, setText] = useState("");
+
+    const handleInputClick = () => {
+        setText("");
+    };
+
     return(
         <div className="header">
                 <img className="header_logo" src="http://pngimg.com/uploads/amazon/amazon_PNG11.png" alt="" />
             <div className="header_search">
-                <input className="header_searchInput" type="text" style={{position: "relative", width:"400px", height:"36px", left: "226px"}}/>
+                <input className="header_searchInput" type="text" style={{position: "relative", width:"400px", height:"36px", left: "226px"}} placeholder="Buscar Amazon" onClick={handleInputClick} value={text} onChange={(e) => setText(e.target.value)}/>
                 {/* LOGO */}
                 <img src={searchIcon} alt="Search Icon"  style={{ width: "38px", height: "auto",position: "relative", left: "226px",top:"1px"}}/>
                 <div className="header_gt">
@@ -22,7 +28,7 @@ function Header() {
 
 
                 <Dropdown style={{ position: 'absolute', left:"290px"}}>
-                    <Dropdown.Toggle variant="light" style={{ backgroundColor: 'white' }} size="md" rounded={false} id="dropdown-basic">
+                    <Dropdown.Toggle variant="light" style={{ backgroundColor: '#f4f4f4', height: "36px",right:"15px"}} size="md" rounded={false} id="dropdown-basic">
                         Todos
                     </Dropdown.Toggle>
 
