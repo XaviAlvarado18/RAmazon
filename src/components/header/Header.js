@@ -77,7 +77,7 @@ function Header() {
                     <span className="header_optionLineTwo" style={{position: "relative", left: "280px",top: "10px"}}>y Pedidos ↓</span>
                 </div>
                 <div className="header_optionBasket">
-                    <img src={ShoppingBasketIcon} alt="Search Icon" style={{ width: "15%", height: "auto",position: "relative", left: "300px"}}/>
+                    <img src={ShoppingBasketIcon} alt="Search Icon" style={{ width: "15%", height: "auto",position: "relative", left: "310px"}}/>
                 </div>
             </div>
         </div>

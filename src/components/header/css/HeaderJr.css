@@ -28,4 +28,5 @@
     background-color: transparent; /* quita el fondo del botón */
     border: none; /* quita el borde del botón */
     outline: none; /* quita el contorno al hacer click */
+    font-weight: bold;
 }

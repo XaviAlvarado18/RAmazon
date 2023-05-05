@@ -23,6 +23,15 @@ function Home() {
                 <div>
                 <img src="https://m.media-amazon.com/images/I/61tX6L542kL._SX3000_.jpg" alt="Imagen 4" />
                 </div>
+                <div>
+                <img src="https://m.media-amazon.com/images/I/610UHMnjeYL._SX3000_.jpg" alt="Imagen 5" />
+                </div>
+                <div>
+                <img src="https://m.media-amazon.com/images/I/61IUQBqfQ1L._SX3000_.jpg" alt="Imagen 6" />
+                </div>
+                <div>
+                <img src="https://m.media-amazon.com/images/I/7174eQSxuFL._SX3000_.jpg" alt="Imagen 7" />
+                </div>
             </Carousel>
                 <div className="home_row">
                     <Product 
@@ -46,8 +55,6 @@ function Home() {
                         image="https://m.xcite.com/media/catalog/product/cache/1/small_image/350x/9df78eab33525d08d6e5fb8d27136e95/f/u/fu52973_funko.jpg"
                         rating={3}
                     />
-                </div>  
-                <div className="home_row">
                     <Product 
                         id='4'
                         title="Funko Pocket Pop & Tee: Fortnite >> Love..."
@@ -62,8 +69,6 @@ function Home() {
                         image="https://m.xcite.com/media/catalog/product/cache/1/small_image/350x/9df78eab33525d08d6e5fb8d27136e95/a/_/a_7_3.jpg"
                         rating={5}
                     />
-                </div>  
-                <div className="home_row">
                     <Product 
                         id='6'
                         title="Samsung 49inch' Curved LED Gaming Monitor = Super Ultra Wide"
