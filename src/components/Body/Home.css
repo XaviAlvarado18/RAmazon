@@ -14,13 +14,33 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -40%);
+    transform: translate(-50%, -30%);
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    grid-gap: 190px;
+    grid-gap: 210px;
     justify-items: center;
     align-items: center;
 }
+
+
+.home_row2{
+    display: flex;
+    z-index: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 69%);
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 210px;
+    justify-items: center;
+    align-items: center;
+}
+
+
+
 
 .home_image{
     width: 100%;

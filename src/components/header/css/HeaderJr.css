@@ -5,20 +5,22 @@
     background-color: #232f3f;
     position: sticky;
     top: 0;
-    z-index: 100;
+    z-index: 10;
 }
 
 .button {
     margin-right: 25px;
+    font-weight: bold;
+    font-size: 15px;
 }
 
 .button,
 .sell {
   color: white;
-  text-decoration: none; /* quita el subrayado */
-  background-color: transparent; /* quita el fondo del botón */
-  border: none; /* quita el borde del botón */
-  outline: none; /* quita el contorno al hacer click */
+  text-decoration: none; 
+  background-color: transparent; 
+  border: none; 
+  outline: none; 
 }
 
 .buttonf{

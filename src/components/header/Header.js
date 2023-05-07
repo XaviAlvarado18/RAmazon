@@ -70,11 +70,11 @@ function Header() {
                 </div>
                 <div className="header_option">
                     <span className="header_optionLineOne" style={{position: "relative", left: "280px",top: "10px"}}>Hola, Identifícate</span>
-                    <span className="header_optionLineTwo" style={{position: "relative", left: "280px",top: "10px"}}>Cuenta y Listas ↓</span>
+                    <span className="header_optionLineTwo" style={{position: "relative", left: "280px",top: "10px"}}>Cuenta y Listas </span>
                 </div>
                 <div className="header_option">
                     <span className="header_optionLineOne" style={{position: "relative", left: "280px",top: "10px"}}>Devoluciones</span>
-                    <span className="header_optionLineTwo" style={{position: "relative", left: "280px",top: "10px"}}>y Pedidos ↓</span>
+                    <span className="header_optionLineTwo" style={{position: "relative", left: "280px",top: "10px"}}>y Pedidos </span>
                 </div>
                 <div className="header_optionBasket">
                     <img src={ShoppingBasketIcon} alt="Search Icon" style={{ width: "15%", height: "auto",position: "relative", left: "310px"}}/>

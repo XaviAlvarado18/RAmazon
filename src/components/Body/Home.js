@@ -3,14 +3,21 @@ import "./Home.css";
 import Product from "../header/Product";
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
-
+import cmp1 from "./../../img/cmp1.png";
+import cmp2 from "./../../img/cmp2.png";
+import cmp3 from "./../../img/cmp3.png";
+import cmp4 from "./../../img/cmp4.png";
+import cmp5 from "./../../img/cmp5.png";
+import cmp6 from "./../../img/cmp6.png";
+import cmp7 from "./../../img/cmp7.png";
+import cmp8 from "./../../img/cmp8.png";
 
 function Home() {
 
     return(
         <div className="home">
             <div className="home_container">
-            <Carousel>
+            <Carousel showThumbs={false} showStatus={false}>
                 <div>
                 <img src="https://m.media-amazon.com/images/I/71qEsRtEnbL._SX3000_.jpg" alt="Imagen 1" />
                 </div>
@@ -35,48 +42,54 @@ function Home() {
             </Carousel>
                 <div className="home_row">
                     <Product 
-                        id='1'
-                        title="Sony PlayStation5 Console + Residental Evil 4"
-                        price={499.99}
-                        image="https://m.xcite.com/media/catalog/product/cache/1/small_image/350x/9df78eab33525d08d6e5fb8d27136e95/s/o/sony-playstation-5-console-resident-evil-village-lendticular-sleeve-nba-2k22-game-standard-edition-cod-vanguard-back-4-blood-special-edition.jpg"
-                        rating={5}
+                        id='btnuno'
+                        title="Inicia sesión para vivir tu mejor experiencia"
+                        image={cmp1}
+                        showButton={false}
+                    />
+                    
+                    <Product 
+                        id='btn2'
+                        title="Accesorios para juegos"
+                        image={cmp2}
+                        showButton={false}
                     />
                     <Product 
-                        id='2'
-                        title="DELL Alienware 6GB Geforce RTX2060 Core i7"
-                        price={734.900}
-                        image="https://m.xcite.com/media/catalog/product/cache/1/small_image/350x/9df78eab33525d08d6e5fb8d27136e95/l/a/laptop-alienware-15-mlk-pdp-8.jpg"
-                        rating={4}
+                        id='btn3'
+                        title="Computadoras y Accesorios"
+                        image={cmp3}
                     />
                     <Product 
-                        id='3'
-                        title="Funko POP! Games: Fortnite Midas Metallic..."
-                        price={6.550}
-                        image="https://m.xcite.com/media/catalog/product/cache/1/small_image/350x/9df78eab33525d08d6e5fb8d27136e95/f/u/fu52973_funko.jpg"
-                        rating={3}
+                        id='btn4'
+                        title="AmazonBasics"
+                        image={cmp4}
+                    />
+                </div>
+                <div className='home_row2'>
+                    <Product 
+                        id='btn5'
+                        title="Salud y Cuidado Personal"
+                        image={cmp5}
                     />
                     <Product 
-                        id='4'
-                        title="Funko Pocket Pop & Tee: Fortnite >> Love..."
-                        price={12.000}
-                        image="https://m.xcite.com/media/catalog/product/cache/1/small_image/350x/9df78eab33525d08d6e5fb8d27136e95/1/5/1587147377628079363-800x800_726_821.jpg"
-                        rating={2}
+                        id='btn6'
+                        title="Ofertas y Promociones"
+                        image={cmp6}
                     />
+
                     <Product 
-                        id='5'
-                        title="Apple iPhone 13 Pro Max 256GB - Gold (Dual SIM)"
-                        price={394.000}
-                        image="https://m.xcite.com/media/catalog/product/cache/1/small_image/350x/9df78eab33525d08d6e5fb8d27136e95/a/_/a_7_3.jpg"
-                        rating={5}
+                        id='btn7'
+                        title="Electrónicos"
+                        image={cmp7}
                     />
+
                     <Product 
-                        id='6'
-                        title="Samsung 49inch' Curved LED Gaming Monitor = Super Ultra Wide"
-                        price={1094.98}
-                        image="https://images-na.ssl-images-amazon.com/images/I/6125mFrzr6L._AC_SX355_.jpg"
-                        rating={5}
+                        id='btn8'
+                        title="Devoluciones fáciles"
+                        image={cmp8}
                     />
                 </div> 
+            
             </div>
         </div>
         

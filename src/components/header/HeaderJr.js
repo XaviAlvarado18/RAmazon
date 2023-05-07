@@ -7,6 +7,7 @@ function HeaderJr() {
         <header>
           <nav>
             <div className="headerjr">
+              <Link to="/" className="button"> </Link>
               <Link to="/" className="button">≡ Todo</Link>
               <Link to="/ofertas" className="button">  Ofertas al día</Link>
               <Link to="/servicio-al-cliente" className="button">  Servicio al cliente</Link>
