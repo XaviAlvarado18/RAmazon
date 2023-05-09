@@ -18,3 +18,8 @@ code{
 .app{
     background-color: #e2e6e7;
 }
+
+.div{
+    flex:1;
+}
+

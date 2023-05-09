@@ -5,6 +5,7 @@ import "./index.css";
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import HeaderJr from "./components/header/HeaderJr";
+import Footer from "./components/footer/footer";
 
 function App() {
     return(
@@ -17,7 +18,10 @@ function App() {
                             <>
                                 <Header />
                                 <HeaderJr />
-                                <Home />
+                                <div className='div'>
+                                    <Home />
+                                    <Footer/>
+                                </div>   
                             </>
                         }
                     />
