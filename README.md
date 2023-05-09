@@ -1,6 +1,6 @@
 # RAmazon
 
-Replicar la página de Amazon con React
+
 Este proyecto tiene como objetivo replicar la página de inicio de 
 Amazon utilizando React, React-Carousel y Sass. Proporcionará una experiencia similar a la
  página de inicio de Amazon, mostrando productos destacados, imágenes de carrusel y un diseño similar al original.
