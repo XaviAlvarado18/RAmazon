@@ -19,8 +19,8 @@
 }
 
 .product > img{
-    max-height: 250px;
-    max-width: 250px;
+    max-height: 85%;
+    max-width: 85%;
     width: 120%;
     height: 20%;
     object-fit: contain;
@@ -32,15 +32,11 @@
 .product_info{
     font-family: Helvetica;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 135%;
 }
 
 .product .title {
-    margin-bottom: 2px; /* Ajusta el margen según sea necesario */
+    margin-bottom: 10%; /* Ajusta el margen según sea necesario */
     position: static;
-}
-  
-.product .button {
-    margin-top: 2px; /* Ajusta el margen según sea necesario */
 }
 

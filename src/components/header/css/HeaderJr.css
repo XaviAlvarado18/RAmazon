@@ -1,5 +1,5 @@
 .headerjr{
-    height: 40px;
+    height: 6vh;
     display: flex;
     align-items: center;
     background-color: #232f3f;
@@ -9,9 +9,9 @@
 }
 
 .button {
-    margin-right: 25px;
+    margin-right: 2vw;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 0.7rem;
 }
 
 .button,
@@ -24,7 +24,7 @@
 }
 
 .buttonf{
-    margin-left: 430px;
+    margin-left: 38%;
     color: white;
     text-decoration: none; /* quita el subrayado */
     background-color: transparent; /* quita el fondo del botón */
